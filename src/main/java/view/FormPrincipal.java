@@ -5,6 +5,10 @@
  */
 package view;
 
+import java.awt.Dimension;
+import javax.swing.JFrame;
+import javax.swing.JInternalFrame;
+
 /**
  *
  * @author samue
@@ -16,6 +20,8 @@ public class FormPrincipal extends javax.swing.JFrame {
      */
     public FormPrincipal() {
         initComponents();
+        this.setTitle("Controle Escolar");
+        this.setExtendedState(JFrame.MAXIMIZED_BOTH);
     }
 
     /**
@@ -27,21 +33,220 @@ public class FormPrincipal extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jCheckBoxMenuItem1 = new javax.swing.JCheckBoxMenuItem();
+        jMenuItem1 = new javax.swing.JMenuItem();
+        jMenuBar2 = new javax.swing.JMenuBar();
+        jMenu3 = new javax.swing.JMenu();
+        jMenu4 = new javax.swing.JMenu();
+        jMenuItem2 = new javax.swing.JMenuItem();
+        menuBar1 = new java.awt.MenuBar();
+        menu1 = new java.awt.Menu();
+        menu2 = new java.awt.Menu();
+        jPopupMenu1 = new javax.swing.JPopupMenu();
+        jPopupMenu2 = new javax.swing.JPopupMenu();
+        jPopupMenu3 = new javax.swing.JPopupMenu();
+        jPopupMenu4 = new javax.swing.JPopupMenu();
+        jMenuBar1 = new javax.swing.JMenuBar();
+        jMenu1 = new javax.swing.JMenu();
+        jMenu2 = new javax.swing.JMenu();
+        jMenuBar4 = new javax.swing.JMenuBar();
+        jMenu5 = new javax.swing.JMenu();
+        jMenu7 = new javax.swing.JMenu();
+        jMenuBar5 = new javax.swing.JMenuBar();
+        jMenu8 = new javax.swing.JMenu();
+        jMenu9 = new javax.swing.JMenu();
+        jMenuBar6 = new javax.swing.JMenuBar();
+        jMenu10 = new javax.swing.JMenu();
+        jMenu11 = new javax.swing.JMenu();
+        jMenuBar7 = new javax.swing.JMenuBar();
+        jMenu12 = new javax.swing.JMenu();
+        jMenu13 = new javax.swing.JMenu();
+        areaTrabalho = new javax.swing.JDesktopPane();
+        jPanel1 = new javax.swing.JPanel();
+        jLabel1 = new javax.swing.JLabel();
+        jMenuBar3 = new javax.swing.JMenuBar();
+        menuCadastro = new javax.swing.JMenu();
+        menuCadastroDeDisciplina = new javax.swing.JMenuItem();
+        menuCadastroDeCurso = new javax.swing.JMenuItem();
+        jMenuItem3 = new javax.swing.JMenuItem();
+        jMenu6 = new javax.swing.JMenu();
+        menuPesquisaDeDisciplina = new javax.swing.JMenuItem();
+        menuPesquisaDeCurso = new javax.swing.JMenuItem();
+
+        jCheckBoxMenuItem1.setSelected(true);
+        jCheckBoxMenuItem1.setText("jCheckBoxMenuItem1");
+
+        jMenuItem1.setText("jMenuItem1");
+
+        jMenu3.setText("File");
+        jMenuBar2.add(jMenu3);
+
+        jMenu4.setText("Edit");
+        jMenuBar2.add(jMenu4);
+
+        jMenuItem2.setText("jMenuItem2");
+
+        menu1.setLabel("File");
+        menuBar1.add(menu1);
+
+        menu2.setLabel("Edit");
+        menuBar1.add(menu2);
+
+        jMenu1.setText("File");
+        jMenuBar1.add(jMenu1);
+
+        jMenu2.setText("Edit");
+        jMenuBar1.add(jMenu2);
+
+        jMenu5.setText("File");
+        jMenuBar4.add(jMenu5);
+
+        jMenu7.setText("Edit");
+        jMenuBar4.add(jMenu7);
+
+        jMenu8.setText("File");
+        jMenuBar5.add(jMenu8);
+
+        jMenu9.setText("Edit");
+        jMenuBar5.add(jMenu9);
+
+        jMenu10.setText("File");
+        jMenuBar6.add(jMenu10);
+
+        jMenu11.setText("Edit");
+        jMenuBar6.add(jMenu11);
+
+        jMenu12.setText("File");
+        jMenuBar7.add(jMenu12);
+
+        jMenu13.setText("Edit");
+        jMenuBar7.add(jMenu13);
+
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+
+        areaTrabalho.setBackground(new java.awt.Color(153, 153, 153));
+
+        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 36)); // NOI18N
+        jLabel1.setText("Sistema de gerenciamento escolar");
+
+        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
+        jPanel1.setLayout(jPanel1Layout);
+        jPanel1Layout.setHorizontalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jLabel1)
+                .addContainerGap(279, Short.MAX_VALUE))
+        );
+        jPanel1Layout.setVerticalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jLabel1)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+
+        areaTrabalho.setLayer(jPanel1, javax.swing.JLayeredPane.DEFAULT_LAYER);
+
+        javax.swing.GroupLayout areaTrabalhoLayout = new javax.swing.GroupLayout(areaTrabalho);
+        areaTrabalho.setLayout(areaTrabalhoLayout);
+        areaTrabalhoLayout.setHorizontalGroup(
+            areaTrabalhoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jPanel1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+        );
+        areaTrabalhoLayout.setVerticalGroup(
+            areaTrabalhoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(areaTrabalhoLayout.createSequentialGroup()
+                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 1008, Short.MAX_VALUE))
+        );
+
+        menuCadastro.setText("Cadastro");
+
+        menuCadastroDeDisciplina.setBackground(new java.awt.Color(255, 255, 255));
+        menuCadastroDeDisciplina.setText("Disciplina");
+        menuCadastroDeDisciplina.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                menuCadastroDeDisciplinaActionPerformed(evt);
+            }
+        });
+        menuCadastro.add(menuCadastroDeDisciplina);
+
+        menuCadastroDeCurso.setText("Curso");
+        menuCadastroDeCurso.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                menuCadastroDeCursoActionPerformed(evt);
+            }
+        });
+        menuCadastro.add(menuCadastroDeCurso);
+
+        jMenuItem3.setText("Aluno");
+        jMenuItem3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem3ActionPerformed(evt);
+            }
+        });
+        menuCadastro.add(jMenuItem3);
+
+        jMenuBar3.add(menuCadastro);
+
+        jMenu6.setText("Pesquisa");
+
+        menuPesquisaDeDisciplina.setText("Disciplinas");
+        menuPesquisaDeDisciplina.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                menuPesquisaDeDisciplinaActionPerformed(evt);
+            }
+        });
+        jMenu6.add(menuPesquisaDeDisciplina);
+
+        menuPesquisaDeCurso.setText("Curso");
+        menuPesquisaDeCurso.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                menuPesquisaDeCursoActionPerformed(evt);
+            }
+        });
+        jMenu6.add(menuPesquisaDeCurso);
+
+        jMenuBar3.add(jMenu6);
+
+        setJMenuBar(jMenuBar3);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 400, Short.MAX_VALUE)
+            .addComponent(areaTrabalho)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 300, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addComponent(areaTrabalho, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, Short.MAX_VALUE))
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void menuCadastroDeDisciplinaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuCadastroDeDisciplinaActionPerformed
+        abrirForm(new FormCadastroDeDisciplina());// TODO add your handling code here:
+    }//GEN-LAST:event_menuCadastroDeDisciplinaActionPerformed
+
+    private void menuCadastroDeCursoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuCadastroDeCursoActionPerformed
+        abrirForm(new FormCadastroDeCurso());// TODO add your handling code here:
+    }//GEN-LAST:event_menuCadastroDeCursoActionPerformed
+
+    private void jMenuItem3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem3ActionPerformed
+         abrirForm(new FormCadastroDeAlunos());// TODO add your handling code here:
+    }//GEN-LAST:event_jMenuItem3ActionPerformed
+
+    private void menuPesquisaDeDisciplinaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuPesquisaDeDisciplinaActionPerformed
+       abrirForm(new FormPesquisaDeDisciplina()); // TODO add your handling code here:
+    }//GEN-LAST:event_menuPesquisaDeDisciplinaActionPerformed
+
+    private void menuPesquisaDeCursoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuPesquisaDeCursoActionPerformed
+        abrirForm(new FormPesquisaDeCurso());// TODO add your handling code here:
+    }//GEN-LAST:event_menuPesquisaDeCursoActionPerformed
 
     /**
      * @param args the command line arguments
@@ -79,5 +284,53 @@ public class FormPrincipal extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JDesktopPane areaTrabalho;
+    private javax.swing.JCheckBoxMenuItem jCheckBoxMenuItem1;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JMenu jMenu1;
+    private javax.swing.JMenu jMenu10;
+    private javax.swing.JMenu jMenu11;
+    private javax.swing.JMenu jMenu12;
+    private javax.swing.JMenu jMenu13;
+    private javax.swing.JMenu jMenu2;
+    private javax.swing.JMenu jMenu3;
+    private javax.swing.JMenu jMenu4;
+    private javax.swing.JMenu jMenu5;
+    private javax.swing.JMenu jMenu6;
+    private javax.swing.JMenu jMenu7;
+    private javax.swing.JMenu jMenu8;
+    private javax.swing.JMenu jMenu9;
+    private javax.swing.JMenuBar jMenuBar1;
+    private javax.swing.JMenuBar jMenuBar2;
+    private javax.swing.JMenuBar jMenuBar3;
+    private javax.swing.JMenuBar jMenuBar4;
+    private javax.swing.JMenuBar jMenuBar5;
+    private javax.swing.JMenuBar jMenuBar6;
+    private javax.swing.JMenuBar jMenuBar7;
+    private javax.swing.JMenuItem jMenuItem1;
+    private javax.swing.JMenuItem jMenuItem2;
+    private javax.swing.JMenuItem jMenuItem3;
+    private javax.swing.JPanel jPanel1;
+    private javax.swing.JPopupMenu jPopupMenu1;
+    private javax.swing.JPopupMenu jPopupMenu2;
+    private javax.swing.JPopupMenu jPopupMenu3;
+    private javax.swing.JPopupMenu jPopupMenu4;
+    private java.awt.Menu menu1;
+    private java.awt.Menu menu2;
+    private java.awt.MenuBar menuBar1;
+    private javax.swing.JMenu menuCadastro;
+    private javax.swing.JMenuItem menuCadastroDeCurso;
+    private javax.swing.JMenuItem menuCadastroDeDisciplina;
+    private javax.swing.JMenuItem menuPesquisaDeCurso;
+    private javax.swing.JMenuItem menuPesquisaDeDisciplina;
     // End of variables declaration//GEN-END:variables
+private void abrirForm(JInternalFrame f){
+        if (areaTrabalho.getAllFrames().length == 0){
+            Dimension d = areaTrabalho.getSize();
+            areaTrabalho.add(f);
+            f.setLocation( (d.width-f.getSize().width)/2,
+                           (d.height-f.getSize().height)/2);
+            f.setVisible(true);
+        }
+    }
 }
